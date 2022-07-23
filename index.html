@@ -65,5 +65,58 @@
         </div>
       </div>
     </nav>
+    <!-- navBar: End -->
+
+    <!-- Container || Main Section -->
+    <div class="container">
+      <main>
+        <section class="some-fun">
+          <section class="filter-sort">
+            <!-- Filter Price -->
+            <div class="for-arrow">
+              <select name="sort" id="sort" class="select">
+                <option value="None">Sort</option>
+                <option value="Maximum">Maximum Price</option>
+                <option value="Minimum">Minimum Price</option>
+              </select>
+              <i class="far fa-chevron-down arrow"></i>
+            </div>
+
+            <!-- Filter Categoryes -->
+            <div class="for-arrow">
+              <select class="select" name="filter" id="filter">
+                <option value="None">Filter</option>
+                <option value="Art">Art</option>
+                <option value="Clothes">Clothes</option>
+                <option value="Games">Games</option>
+                <option value="Phones">Phones</option>
+              </select>
+              <i class="far fa-chevron-down arrow"></i>
+            </div>
+          </section>
+
+          <section class="wrap-btn-view">
+            <button id="btnAddProduct" class="btn btn-add">Add Product</button>
+            <section class="list-grid">
+              <button id="btnList" class="btn list">
+                <i class="far fa-list"></i>
+              </button>
+
+              <button id="btnGrid" class="btn grid">
+                <i class="far fa-border-all active"></i>
+              </button>
+            </section>
+          </section>
+        </section>
+        <!--Section of Products List -->
+        <section id="product-list" class="wrap-product-list">
+          <ul class="product-list"></ul>
+          <section class="empty">
+            <img src="img/Personalization-cuate_1.svg" alt="" />
+            <p class="emptyText">There's no any Product, add Some Product</p>
+          </section>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
