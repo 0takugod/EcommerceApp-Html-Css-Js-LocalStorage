@@ -26,5 +26,44 @@
     <!-- style Css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- navBar -->
+    <nav class="navbar">
+      <!-- logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/Logo.svg" alt="logo Website" />
+        </a>
+      </div>
+      <i class="fas fa-bars" id="btn-close-navbar"></i>
+
+      <!-- navBar Content -->
+      <div id="navbar-content" class="navbar-content navbar-hidden">
+        <!-- Search Container -->
+        <div class="search-container">
+          <i class="far fa-search"></i>
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Search..."
+          />
+        </div>
+
+        <!-- Button container -->
+        <div class="btn-container">
+          <button type="button" class="btn-buyer" id="btn-buyer">Buyer</button>
+
+          <button type="button" class="btn-seller" id="btn-seeler">
+            Seller
+          </button>
+
+          <button type="button" class="btn-shopping-bag" id="btn-shopping-bag">
+            <span class="count-cart">2</span>
+            <i class="far fa-shopping-bag"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
