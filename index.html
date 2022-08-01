@@ -30,6 +30,7 @@
     <!-- navBar -->
     <nav class="navbar">
       <!-- logo -->
+
       <div class="logo">
         <a href="index.html">
           <img src="img/Logo.svg" alt="logo Website" />
@@ -76,8 +77,8 @@
             <div class="for-arrow">
               <select name="sort" id="sort" class="select">
                 <option value="None">Sort</option>
-                <option value="Maximum">Maximum Price</option>
-                <option value="Minimum">Minimum Price</option>
+                <option value="Maximum">Max Price</option>
+                <option value="Minimum">Min Price</option>
               </select>
               <i class="far fa-chevron-down arrow"></i>
             </div>
@@ -112,7 +113,6 @@
         <section id="product-list" class="wrap-product-list">
           <ul class="product-list"></ul>
           <section class="empty">
-            <img src="img/Personalization-cuate_1.svg" alt="" />
             <p class="emptyText">There's no any Product, add Some Product</p>
           </section>
         </section>
@@ -178,10 +178,11 @@
     <!-- End: Cart Section -->
 
     <!-- Modal for First Page -->
+    <!--  
     <section class="modal-starter" id="modal-starter">
       <div class="modal-overview"></div>
       <div class="modal-content">
-        <i class="far fa-times" id="close-modal"></i>
+        <i class="far fa-times" id="modal-starter"></i>
         <div class="modal-img">
           <img
             src="img/Personalization-cuate_1.svg"
@@ -199,10 +200,9 @@
             Seller
           </button>
         </div>
-        <!-- End: modal button comtainer class -->
       </div>
-      <!-- End: modal contener Class -->
     </section>
+    -->
     <!-- End: Modal for first page Section -->
 
     <!-- Modal For Add Products -->
@@ -284,5 +284,8 @@
       <!-- End: modal product content Class -->
     </section>
     <!-- End: Modal for add Products -->
+
+    <script src="js/logic.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
