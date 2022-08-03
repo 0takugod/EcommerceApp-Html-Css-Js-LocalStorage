@@ -437,6 +437,7 @@ filter.addEventListener("click", () => {
   );
 });
 
+/*
 const filterProduct = (nameCategory, products) => {
   if (nameCategory === "None" || nameCategory === undefined) {
     return products;
@@ -446,6 +447,7 @@ const filterProduct = (nameCategory, products) => {
     });
   }
 };
+*/
 
 sort.addEventListener("click", () => {
   render(
