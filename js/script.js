@@ -470,6 +470,9 @@ const sortProduct = (sortType, products) => {
 const btnList = document.querySelector("#btnList");
 const btnGrid = document.querySelector("#btnGrid");
 
+// btnList.style.display = "none";
+// btnGrid.style.display = "none";
+
 btnList.addEventListener("click", () => {
   const item1 = document.querySelector(".product-list");
   const item2 = document.querySelector(".wrap-img");
