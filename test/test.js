@@ -18,25 +18,25 @@ describe("Filter Function", () => {
       {
         id: 1,
         name: "first",
-        price: 10.15,
+        price: 15.18,
         category: "clothing",
-        image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        image: "https://ddddddd",
       },
       {
         id: 2,
         name: "second",
-        price: 20,
+        price: 22,
         category: "Games",
-        image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        image: "https://ddddddd",
       },
     ];
     const filteredList = [
       {
         id: 1,
         name: "first",
-        price: 10.15,
+        price: 15.18,
         category: "clothing",
-        image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        image: "https://ddddddd",
       },
     ];
     expect(filterProduct(nameCategory, products)).toEqual(filteredList);
@@ -48,16 +48,16 @@ describe("Filter Function", () => {
       {
         id: 1,
         name: "first",
-        price: 10.15,
+        price: 15.18,
         category: "clothing",
-        image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        image: "https://ddddddd",
       },
       {
         id: 2,
         name: "second",
-        price: 20,
+        price: 22,
         category: "Games",
-        image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        image: "https://ddddddd",
       },
     ];
     expect(filterProduct(nameCategory, products)).toEqual(products);
